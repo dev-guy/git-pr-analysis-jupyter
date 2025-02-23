@@ -1,5 +1,5 @@
 # git-pr-analysis-jupyter
-A notebook to analyze pull requests for one or more repositories, with the following analysis:
+A notebook to analyze pull requests for one or more git repositories, with the following analysis:
 
 ### All author aggregate analysis
 Distribution of PRs into buckets: < 1 day, 1-2 days, 2-3 days, 3-4 days, > 4 days
@@ -14,7 +14,7 @@ Distribution of PRs into buckets: < 1 day, 1-2 days, 2-3 days, 3-4 days, > 4 day
 
 ## Usage
 
-1. Get a GitHub personal access token for the repositories that you want to analyze. Required permissions are read-only for PRs and issues
+1. Get a GitHub [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) for the repositories to analyze with read-only access to PRs and issues.
 2. Before running the notebook, specify:
   - Your GitHub personal access token
   - Which repositories to process
