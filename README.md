@@ -1,5 +1,16 @@
 # git-pr-analysis-jupyter
-A notebook to analyze pull requests
+A notebook to analyze pull requests for one or more repositories, with the following analysis:
+
+### All author aggregate analysis
+Distribution of PRs into buckets: < 1 day, 1-2 days, 2-3 days, 3-4 days, > 4 days
+- For time to first review
+- For time to merge
+
+### Per-author analysis
+- Number of all PRs
+- Number of PRs merged
+- Time to first review (avg/median/max)
+- Time to merge (avg/median/max)
 
 ## Usage
 
